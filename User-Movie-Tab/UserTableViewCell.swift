@@ -15,7 +15,11 @@ class UserTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+
+        backgroundColor = .darkGray
+        self.layer.borderWidth = 0
+        self.layer.cornerRadius = 10
+        self.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -39,9 +39,12 @@ class ApiHelper{
     
    private func parseUsersData(responseData: Data){
         let decoder = JSONDecoder()
-        let root:Roots = try!decoder.decode(Roots.self, from: responseData)
-        
-        self.userArray = root.users
+       do {
+           let root:Roots = try decoder.decode(Roots.self, from: responseData)
+           self.userArray = root.users
+       } catch {
+           print("JSONDecoder failed")
+       }
        protocolref?.getusers(usersArray: self.userArray)
        // self.protocolProductData?.reloadView()
         

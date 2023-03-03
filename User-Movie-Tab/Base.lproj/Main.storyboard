@@ -63,20 +63,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UEU-9v-A5k">
-                                <rect key="frame" x="0.0" y="113" width="393" height="656"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UEU-9v-A5k">
+                                <rect key="frame" x="10" y="113" width="373" height="656"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" red="0.99316412210464478" green="0.99316412210464478" blue="0.99316412210464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zjc-sb-wdv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="UEU-9v-A5k" firstAttribute="top" secondItem="Zjc-sb-wdv" secondAttribute="top" constant="10" id="BLT-TT-dc2"/>
-                            <constraint firstItem="UEU-9v-A5k" firstAttribute="leading" secondItem="Zjc-sb-wdv" secondAttribute="leading" id="IPv-ax-7Af"/>
-                            <constraint firstItem="Zjc-sb-wdv" firstAttribute="trailing" secondItem="UEU-9v-A5k" secondAttribute="trailing" id="Icr-R7-NUe"/>
+                            <constraint firstItem="UEU-9v-A5k" firstAttribute="leading" secondItem="Zjc-sb-wdv" secondAttribute="leading" constant="10" id="IPv-ax-7Af"/>
                             <constraint firstItem="Zjc-sb-wdv" firstAttribute="bottom" secondItem="UEU-9v-A5k" secondAttribute="bottom" id="JR5-z1-G4C"/>
-                            <constraint firstItem="UEU-9v-A5k" firstAttribute="leading" secondItem="Zjc-sb-wdv" secondAttribute="leading" id="nAh-Ye-q11"/>
-                            <constraint firstItem="Zjc-sb-wdv" firstAttribute="trailing" secondItem="UEU-9v-A5k" secondAttribute="trailing" id="ues-An-i3r"/>
+                            <constraint firstItem="Zjc-sb-wdv" firstAttribute="trailing" secondItem="UEU-9v-A5k" secondAttribute="trailing" constant="10" id="ues-An-i3r"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="O04-Gf-dFh"/>
