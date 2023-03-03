@@ -26,16 +26,16 @@ class UserModelView: GetUsersProtocolAPI {
     }
     
   
-//    func populateData() {
-//        let user1 = User(firstName: "Sejal", lastName: "Jadhav", age: 28)
-//        let user2 = User(firstName: "Akshay", lastName: "Pure", age: 30)
-//        let user3 = User(firstName: "Eva", lastName: "Pure", age: 1)
-//
-//        UserArray.append(user1)
-//        UserArray.append(user2)
-//        UserArray.append(user3)
-//        print(UserArray)
-//    }
+    func populateData() {
+        let user1 = User(firstName: "Sejal", lastName: "Jadhav", age: 28)
+        let user2 = User(firstName: "Akshay", lastName: "Pure", age: 30)
+        let user3 = User(firstName: "Eva", lastName: "Pure", age: 1)
+
+        userArray.append(user1)
+        userArray.append(user2)
+        userArray.append(user3)
+        print(userArray)
+    }
 
     
 }

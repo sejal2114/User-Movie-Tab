@@ -38,6 +38,17 @@ extension UserViewController: UITableViewDelegate, UITableViewDataSource {
           userModelView.userArray.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let user = userModelView.userArray[indexPath.row]
+        
+        let userDetailsViewController = storyboard?.instantiateViewController(withIdentifier: "UserDetailsViewController") as? UserDetailsViewController
+        
+        if let userDetailsViewController {
+            userDetailsViewController.user = user
+            navigationController?.pushViewController(userDetailsViewController, animated: true)
+        }
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserTableViewCell", for:    indexPath) as! UserTableViewCell

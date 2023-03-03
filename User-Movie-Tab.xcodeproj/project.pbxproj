@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06007C6C29B27C0E00223010 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06007C6B29B27C0E00223010 /* UserDetailsViewController.swift */; };
 		0625475F29B21C4100AC3E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625475E29B21C4100AC3E1B /* AppDelegate.swift */; };
 		0625476129B21C4100AC3E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0625476029B21C4100AC3E1B /* SceneDelegate.swift */; };
 		0625476629B21C4100AC3E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0625476429B21C4100AC3E1B /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06007C6B29B27C0E00223010 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		0625475B29B21C4100AC3E1B /* User-Movie-Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User-Movie-Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0625475E29B21C4100AC3E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0625476029B21C4100AC3E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				0625477229B21EA900AC3E1B /* UserViewController.swift */,
 				0625477429B21EC600AC3E1B /* MovieViewController.swift */,
+				06007C6B29B27C0E00223010 /* UserDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				0625475F29B21C4100AC3E1B /* AppDelegate.swift in Sources */,
 				0625478929B24D2700AC3E1B /* GetUsersProtocol.swift in Sources */,
+				06007C6C29B27C0E00223010 /* UserDetailsViewController.swift in Sources */,
 				0625477D29B22B3300AC3E1B /* UserModelView.swift in Sources */,
 				0625478D29B2542C00AC3E1B /* UIUpdateUsersProtocol.swift in Sources */,
 				0625477329B21EA900AC3E1B /* UserViewController.swift in Sources */,
